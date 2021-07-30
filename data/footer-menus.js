@@ -1,3 +1,11 @@
+export const primaryMenu = [
+  { id: 1, label: 'Home', slug: '/help-and-contact-us' },
+  { id: 2, label: 'Shop', slug: '/returns-and-refunds' },
+  { id: 3, label: 'Categories', slug: '/online-stores' },
+  { id: 4, label: 'About Us', slug: '/terms-and-conditions' },
+  { id: 5, label: 'Contact Us', slug: '/terms-and-conditions' },
+];
+
 export const customerService = [
   { id: 1, label: 'Help & Contact Us', slug: '/help-and-contact-us' },
   { id: 2, label: 'Returns & Refunds', slug: '/returns-and-refunds' },
