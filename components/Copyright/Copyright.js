@@ -5,7 +5,7 @@ function Copyright() {
     return new Date().getFullYear();
   }
   return (
-    <p className="font-extralight text-center mt-12 md:mt-18 lg:mt-24">
+    <p className="font-extralight text-center border-t border-light-gray-100 border-opacity-75 py-4">
       <span className="block sm:inline-block sm:mx-1">
         Copyright {currentYear()} Metanoia Fashion Designing L.L.C.
       </span>

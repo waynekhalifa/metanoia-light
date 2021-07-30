@@ -9,10 +9,10 @@ import styles from './FooterMenu.module.css';
 function FooterMenu({ title, items }) {
   return (
     <div className={`${styles.menu} mt-8`}>
-      <h4 className="text-base mb-6 uppercase tracking-wider">{title}</h4>
+      <h4 className="text-base mb-8 uppercase tracking-wider">{title}</h4>
       <ul className="menu">
         {items.map((item) => (
-          <li key={item.id} className={`${styles.menuItem} mb-2 `}>
+          <li key={item.id} className={`${styles.menuItem} mb-3`}>
             <Link href={item.slug}>
               <a className="text-sm font-light">{item.label}</a>
             </Link>
