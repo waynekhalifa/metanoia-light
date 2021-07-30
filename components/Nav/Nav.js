@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Logo from '../Logo';
-import MainNav from '../MainNav';
-import Account from '../Account';
+import Logo from 'components/Logo';
+import MainNav from 'components/MainNav';
+import Account from 'components/Account';
 
 import styles from './Nav.module.css';
 

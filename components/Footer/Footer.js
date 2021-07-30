@@ -1,14 +1,14 @@
 import React from 'react';
 
-import FooterMenu from '../FooterMenu';
-import Copyright from '../Copyright';
+import FooterMenu from 'components/FooterMenu';
+import Copyright from 'components/Copyright';
 
 import {
   customerService,
   company,
   socialMedia,
   profile,
-} from '../../data/footer-menus';
+} from 'data/footer-menus';
 
 import styles from './Footer.module.css';
 
