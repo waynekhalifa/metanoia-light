@@ -1,9 +1,1 @@
-.mainNav {
-  display: none;
-}
 
-@media (min-width: 1024px) {
-  .mainNav {
-    display: block;
-  }
-}

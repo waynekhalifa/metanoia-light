@@ -1,21 +1,31 @@
 import React from 'react';
 
+import MenuIcon from 'components/MenuIcon';
+import SearchIcon from 'components/SearchIcon';
 import Logo from 'components/Logo';
 import MainNav from 'components/MainNav';
 import Account from 'components/Account';
 
-import styles from './Nav.module.css';
-
 function Nav() {
+  function handleToggleMenu() {
+    console.log('This is working...');
+  }
+
+  function handleToggleSearch() {
+    console.log('This is working...');
+  }
+
   return (
-    <nav className={`${styles.nav} flex items-center`}>
+    <nav className={`flex items-center`}>
       <div className="flex-auto">
-        <div className="lg:hidden">icon...</div>
+        <div className="lg:hidden">
+          <MenuIcon toggleMenu={handleToggleMenu} />
+        </div>
         <div className="hidden lg:block">
           <Logo />
         </div>
       </div>
-      <div className={` flex-auto`}>
+      <div className={`flex-auto`}>
         <div className="lg:hidden">
           <Logo />
         </div>
@@ -24,7 +34,9 @@ function Nav() {
         </div>
       </div>
       <div className="flex-auto">
-        <div className="flex justify-end lg:hidden">icon...</div>
+        <div className="flex justify-end lg:hidden">
+          <SearchIcon toggleSearch={handleToggleSearch} />
+        </div>
         <div className="hidden lg:block">
           <Account />
         </div>
