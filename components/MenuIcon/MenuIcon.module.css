@@ -2,13 +2,12 @@
   width: fit-content;
   display: block;
   cursor: pointer;
-  padding: 3px;
 }
 
 .menuIcon div {
   position: relative;
-  width: 24px;
-  height: 2px;
+  width: 19px;
+  height: 1px;
   opacity: 1;
   display: block;
   background: #fff;

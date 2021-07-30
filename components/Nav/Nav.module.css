@@ -1,1 +1,9 @@
+.branding {
+  max-width: 40px;
+}
 
+@media (min-width: 1024px) {
+  .branding {
+    max-width: none;
+  }
+}

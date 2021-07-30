@@ -1,8 +1,7 @@
 .logo {
   display: block;
   max-width: 120px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -10px;
 }
 
 .logo div {
@@ -11,10 +10,4 @@
 
 .logo img {
   display: block;
-}
-
-@media (min-width: 1024px) {
-  .logo {
-    margin-left: -10px;
-  }
 }
