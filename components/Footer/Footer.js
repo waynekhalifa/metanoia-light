@@ -8,7 +8,7 @@ import {
   company,
   socialMedia,
   profile,
-} from '../../styles/data/footer-menus';
+} from '../../data/footer-menus';
 
 import styles from './Footer.module.css';
 
