@@ -1,4 +1,10 @@
 .footer {
-  background: #050505;
-  color: #fff;
+  /* background: #050505;
+  color: #fff; */
+  background: white;
+  color: #080808;
+}
+
+.footer a {
+  color: #929292;
 }

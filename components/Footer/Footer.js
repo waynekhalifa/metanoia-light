@@ -9,7 +9,9 @@ import styles from './Footer.module.css';
 
 function Footer() {
   return (
-    <footer className={`${styles.footer} `}>
+    <footer
+      className={`${styles.footer} border-t border-light-gray-100 border-opacity-75`}
+    >
       <div className="py-12 md:py-18 lg:py-24">
         <div className="container max-w-screen-lg mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
