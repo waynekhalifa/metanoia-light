@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Main({ children }) {
-  return <main>t{children}</main>;
+  return <main>{children}</main>;
 }
 
 Main.propTypes = {

@@ -1,0 +1,33 @@
+.banner {
+  margin-bottom: -6px;
+}
+
+.slide {
+  display: block;
+  position: relative;
+  margin-bottom: -6px;
+  color: white;
+}
+
+.slick-dots {
+  bottom: 30px;
+}
+
+.slick-dots li button {
+  padding: 0;
+  width: 150px;
+  height: 18px;
+}
+
+.slick-dots li button:before {
+  width: 0%;
+}
+
+.slick-dots li button:before {
+  height: 6px;
+}
+
+.slick-dots li button:after {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 75px rgb(0 0 0 / 80%);
+}
