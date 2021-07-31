@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { primaryMenu } from 'data/menus';
+
 import MenuIcon from 'components/MenuIcon';
 import Cart from 'components/Cart';
 import SearchIcon from 'components/SearchIcon';
@@ -33,7 +35,7 @@ function Nav() {
           <Logo />
         </div>
         <div className="hidden lg:block">
-          <MainNav />
+          <MainNav items={primaryMenu} />
         </div>
       </div>
       <div className="flex-auto">

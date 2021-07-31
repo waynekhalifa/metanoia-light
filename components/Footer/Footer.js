@@ -3,12 +3,7 @@ import React from 'react';
 import FooterMenu from 'components/FooterMenu';
 import Copyright from 'components/Copyright';
 
-import {
-  customerService,
-  company,
-  socialMedia,
-  profile,
-} from 'data/footer-menus';
+import { customerService, company, socialMedia, profile } from 'data/menus';
 
 import styles from './Footer.module.css';
 
