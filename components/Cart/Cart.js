@@ -1,11 +1,14 @@
 import React from 'react';
+import Link from 'next/link';
 
 function Cart() {
   return (
-    <div className="flex items-center text-sm mr-2">
-      <span className="uppercase mr-1">Bag</span>
-      <span className="grey">($0)</span>
-    </div>
+    <Link href="/cart">
+      <a className="flex items-center text-sm mr-2">
+        <span className="uppercase mr-1">Bag</span>
+        <span className="grey">($0)</span>
+      </a>
+    </Link>
   );
 }
 

@@ -37,12 +37,12 @@ function Nav() {
         </div>
       </div>
       <div className="flex-auto">
-        <div className="flex justify-end lg:hidden">
+        <div className="flex justify-end ">
+          <div className="hidden lg:flex lg:items-center">
+            <Account />
+          </div>
           <Cart />
           <SearchIcon toggleSearch={handleToggleSearch} />
-        </div>
-        <div className="hidden lg:block">
-          <Account />
         </div>
       </div>
     </nav>
